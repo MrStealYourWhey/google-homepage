@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <style>
+        .image {
+            display: flex;
+            height: 250px;
+        }
+        #google-logo {
+            margin: auto auto 30px auto;
+        }
+        .searchbox {
+            display: flex;
+        }
+        #search {
+            margin : auto;
+            width: 600px;
+            height: 40px;
+            border-radius: 25px;
+            border-style: solid;
+            padding-left: 40px;
+            font-size: 15px;
+            font-family:Arial, Helvetica, sans-serif;
+            background-image: url("Images/Glass_icon.svg");
+            background-size: 15px;
+            background-repeat: no-repeat;
+            background-position-y: center;
+            background-position-x: 10px
+        }
+        #glass-icon {
+            height: 20px;
+            width: 20px;
+        }
+        .boxes {
+            display: flex;
+            margin-top: 30px;
+            justify-content: center;
+            height: 40px;
+            margin-bottom: 150px;
+        }
+        .button {
+            height: 40px;
+            margin-left: 5px;
+            margin-right: 5px;
+            width: 140px;
+            padding: 5px;
+            font-size: 15px;
+            font-family:Arial, Helvetica, sans-serif;
+            border-style: none;
+            border-radius: 5px;
+            background-color:rgb(242, 242, 252);
+            }
+        .navbar {
+            height: 50px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }    
+        ul {
+            list-style-type: none;
+        }
+        .right {
+            float: right;
+            padding: 8px 10px 8px 10px;
+            margin-right: -5px;
+            opacity: 0.75;
+            }
+        .left {
+            float: left;
+            padding: 8px 10px 8px 0px;
+            margin-left: -20px;
+            margin-right: 25px;
+            opacity: 0.75;
+        }    
+        #menu-icon {
+            height: 25px;
+            margin-top: -5px;
+            margin-right: 10px;
+        }
+        #sign-in {
+            background-color: rgb(66, 133, 244);
+            color: white;
+            font-weight: bold;
+            border-radius: 2px;
+            font-style: normal;
+            margin-right: 10px;
+            opacity:unset;
+        } 
+        .footer {
+            position: fixed;
+            margin-top: 150px;
+            width: 100%;
+            bottom: 0;
+        }
+        .footbar {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            margin-left: -10px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            background-color: rgb(242, 242, 242);
+        }
+        .rightb {
+            float: right;
+            padding: 0px 10px 15px 10px;
+            margin-right: 10px;
+            opacity: 0.75;
+            }
+        .leftb {
+            float: left;
+            padding: 0px 10px 15px 0px;
+            margin-right: 25px;
+            opacity: 0.75;
+        }    
+    </style>
+        <div class="navbar">
+            <ul>
+                <li class="right" id="sign-in"> Sign In</li>
+                <li class="right"><img id="menu-icon" src="Images/menu_icon.png" alt="menu icon"></li>
+                <li class="right">Images</li>
+                <li class="right">Gmail</li>
+                <li class="left">About</li>
+                <li class="left">Store</li>
+            </ul>
+        </div>
+        <div class="image"">
+            <img id="google-logo" src="Images/google_logo.png" alt="google logo">
+        </div>
+        <div class="searchbox">
+            <input id="search" type="search" results="0">
+        </div>
+        <div class="boxes">
+            <button class="button" type="submit">Google Search</button>
+            <button class="button" type="submit">I'm Feeling Lucky</button>
+        </div>
+        <footer class="footer">
+            <div class="footbar">
+                <ul>
+                    <li class="rightb">Settings</li>
+                    <li class="rightb">Terms</li>
+                    <li class="rightb">Privacy</li>
+                    <li class="leftb">Advertising</li>
+                    <li class="leftb">Bussiness</li>
+                    <li class="leftb">How Search works</li>
+                </ul>
+            </div>    
+        </footer>
+    </body> 
+</html>
